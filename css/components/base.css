@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: 'Segoe WP N';
+  font-weight: 400;
+  color:#000000;
+  line-height: 1.5;
+  font-family: 'Roboto';
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  box-sizing: content-box;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 10px 0;
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  text-decoration: none;
+	color: #5094f2;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo-image {
+  margin: 0;
+  line-height: 0;
+}
+
+.logo-image .image {
+  max-width: 208px;
+}
+
+@media (min-width: 480px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 640px) {
+  .logo-image {
+    width: 210px;
+  }
+  }
+
+@media (min-width: 960px) {
+  .logo {
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+

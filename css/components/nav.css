@@ -1,0 +1,86 @@
+.nav {
+	display: none;
+}
+.nav-item {
+	color: #6c6c6c;
+	font-family: "Segoe WP N";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	margin-left: 45px;
+	padding: 17px 0;
+}
+
+.nav-item:hover {
+	color: #5094f2;
+	text-decoration: none;
+}
+
+.nav-item.is-active {
+	border-bottom: 3px solid #5094f2;
+}
+
+.nav-button {
+	display: block;
+	position: relative;
+	background-color: #5094f2;
+	width: 58px;
+	height: 44px;
+}
+
+.nav-button-decoration::after,
+.nav-button-decoration::before,
+.nav-button-decoration {
+	position: absolute;
+	top: 50%;
+	margin-top: -3px;	
+	left: 50%;
+	margin-left: -18.5px;
+	width: 37px;
+	height: 6px;
+	background-color: #ffffff;
+}
+
+.nav-button-decoration::before,
+.nav-button-decoration::after {
+	display: inline-block;
+	content: '';
+}
+
+.nav-button-decoration::after {
+	transform: translateY(9px)
+}
+
+.nav-button-decoration::before {
+	transform: translateY(-9px)
+}
+
+.nav-button:active {
+	background-color: #fff;
+	border: 1px solid #5094f2;
+}
+
+.nav-button:active .nav-button-decoration {
+	background-color: #5094f2;
+}
+
+.nav-button:active .nav-button-decoration::after {
+	background-color: #5094f2;
+}
+
+.nav-button:active .nav-button-decoration::before {
+	background-color: #5094f2;
+}
+
+
+
+
+@media (min-width: 960px) {
+	.nav {
+		display: flex;
+	}
+
+	.nav-button {
+		display: none;
+	}
+}

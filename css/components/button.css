@@ -1,0 +1,50 @@
+.button {
+  padding: 11px 13px;
+  display: inline-flex;
+  justify-content: center;
+	font-size: 30px;
+  font-family: "Segoe WP N";
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+}
+
+.button-icon {
+  margin-right: 15px;
+}
+
+.button-primary {
+  background-color: #5094f2;
+  color: #ffffff;
+}
+.button-primary:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #5094f2;
+}
+
+.button:hover .button-icon::before {
+  color: #5094f2;
+}
+
+.button-large {
+  padding: 16px 32px;
+}
+.button-small {
+  padding: 4px 8px;
+}
+.button-block {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .button {
+    padding: 11px;
+    font-size: 22px;
+  }
+
+  .button-icon {
+    margin-right: 11px;
+  }      
+}

@@ -1,0 +1,170 @@
+.section {
+  position: relative;  
+  padding: 20px 0 0 0;
+}
+
+.section-title {
+  font-family: 'Segoe WP N';
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
+}
+
+.section-subtitle {
+  font-family: 'Segoe WP N';
+}
+
+.section-description {
+  font-family: 'Segoe WP N';
+  font-size: 23px;
+  line-height: 35.94px;
+}
+
+.section-shopping .section-image .image {
+  max-height: 162px;
+}
+
+.section-hero .section-image .image {
+  max-height: 223px;
+}
+
+
+.section-image {
+  display: none;
+  margin: 0;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.section-hero .section-description {
+  margin-bottom: 33px;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 35.94px;
+}
+
+.section-hero .section-top,
+.section-hero .section-middle {
+  text-align: center;
+}
+
+.section-decoration {
+  display: none;
+  height: 8px;
+  margin: 0;
+  width: 100%;
+  background-image: url(../../images/Slice_3.png);
+  background-repeat: repeat-x, no-repeat;
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: 0;
+}
+
+.section-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  z-index: -2;
+}
+
+.section-foreground {
+  color: #fff;
+}
+
+.section-shopping .section-title,
+.section-shopping .section-subtitle {
+  font-size: 42px;
+  color: #6f7173;
+}
+
+.section-shopping .section-subtitle {
+  font-size: 34px;
+}
+
+.section-shopping .section-description {
+  color: #909090;
+  font-size: 17px;
+  line-height: 36px;
+}
+
+.section-footer .section-description {
+  color: #909090;
+  font-size: 15px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer {
+  border-top: 1px solid rgba(000, 000, 000, 0.2);
+}
+
+.section-shopping-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 480px) {
+  .section-image {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 640px) {
+  .section-hero .section-middle {
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 960px) {
+  .section-decoration {
+    display: block;
+  }
+
+  .section-header {
+    padding-bottom: 0;
+    align-items: flex-end;
+  }
+
+  .section-shopping .section-image .image {
+    max-height: 279px;
+  }
+  
+  .section-hero .section-image .image {
+    max-height: 436px;
+    width: auto;
+  }
+    
+}
+
+@media (min-width: 1200px) {
+  .section-shopping-bottom {
+    padding-top: 55px;
+  }
+}
