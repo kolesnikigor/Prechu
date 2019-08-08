@@ -48,11 +48,15 @@
 }
 
 .nav-button-decoration::after {
-	transform: translateY(9px)
+	-webkit-transform: translateY(9px);
+	    -ms-transform: translateY(9px);
+	        transform: translateY(9px)
 }
 
 .nav-button-decoration::before {
-	transform: translateY(-9px)
+	-webkit-transform: translateY(-9px);
+	    -ms-transform: translateY(-9px);
+	        transform: translateY(-9px)
 }
 
 .nav-button:active {
@@ -77,6 +81,8 @@
 
 @media (min-width: 960px) {
 	.nav {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 	}
 

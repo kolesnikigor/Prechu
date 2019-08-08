@@ -1,6 +1,9 @@
 .grid {
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .grid-gap-small {
@@ -95,7 +98,15 @@
   .grid-gap-xlarge-lg > .grid-item {
     padding: 0 65px;
   }
-
+  
+  .grid-gap-large-lg {
+    margin: 0 -50px;
+  }
+  
+  .grid-gap-large-lg > .grid-item {
+    padding: 0 50px;
+  }
+  
   .grid-gap-medium-lg {
     margin: 0 -40px;
   }
