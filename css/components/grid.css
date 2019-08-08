@@ -4,19 +4,11 @@
 }
 
 .grid-gap-small {
-  margin: 0 -13px;
+  margin: 0 -11px;
 }
 
 .grid-gap-small > .grid-item {
-  padding: 0 13px;
-}
-
-.grid-gap-small {
-  margin: 0 -13px;
-}
-
-.grid-gap-small > .grid-item {
-  padding: 0 13px;
+  padding: 0 11px;
 }
 
 .grid-gap-medium {
@@ -53,11 +45,11 @@
   }
   
   .grid-gap-small-sm {
-    margin: 0 -13px;
+    margin: 0 -10px;
   }
   
   .grid-gap-small-sm > .grig-item {
-    padding: 0 13px;
+    padding: 0 10px;
   }
 
   .grid-gap-medium-sm {

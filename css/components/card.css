@@ -18,6 +18,8 @@
 .card-title {
   font-size: 34px;
   color: #5094f2;
+  margin-bottom: 5px;
+  font-weight: 400;
 }
 
 .card-description {
@@ -36,15 +38,22 @@
 
 .card-icon.icon-Shape_6 {
   background-color: #d94748;
+  font-size: 60px;
 }
 
 .card-icon.icon-Shape_5 {
   background-color: #ebbb11;
+  font-size: 70px;
 }
 
 @media (min-width: 640px) {
  .card-body {
     text-align: left;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }
 }
 

@@ -5,10 +5,7 @@
 
 .section-title {
   font-family: 'Segoe WP N';
-  font-size: 31px;
   font-weight: 300;
-  line-height: 30px;
-  margin: 0;
 }
 
 .section-subtitle {
@@ -24,6 +21,13 @@
 .section-shopping .section-image .image {
   max-height: 162px;
 }
+
+.section-hero .section-title {
+  font-size: 31px;
+  line-height: 30px;
+  margin: 0;
+}
+
 
 .section-hero .section-image .image {
   max-height: 223px;
