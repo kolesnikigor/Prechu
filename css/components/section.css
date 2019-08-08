@@ -20,6 +20,7 @@
 
 .section-shopping .section-image .image {
   max-height: 162px;
+  object-fit: contain;
 }
 
 .section-hero .section-title {
@@ -188,12 +189,13 @@
   }
 
   .section-shopping-bottom {
-    padding-top: 85px;
+    padding-top: 92px;
     margin: 0;
   }
 
   .section-shopping .section-subtitle {
     margin-bottom: 15px;
+    font-size: 26px;
   }
 
   .section-header {
@@ -218,7 +220,10 @@
   }
 
   .section-hero .section-middle {
-    padding-top: 140px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
     
   .section-cards {
@@ -231,6 +236,7 @@
 @media (min-width: 1200px) {
   .section-hero .section-title {
     font-size: 42px;
+    line-height: 1;
   }
 
   .section-hero .section-description {

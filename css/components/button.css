@@ -53,6 +53,7 @@
   .button {
     padding: 11px;
     font-size: 22px;
+    width: fit-content;
   }
 
   .button-icon {
