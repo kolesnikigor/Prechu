@@ -22,7 +22,7 @@
 }
 
 .card-title {
-  font-size: 34px;
+  font-size: 28px;
   color: #5094f2;
   margin-bottom: 5px;
   font-weight: 400;
@@ -30,8 +30,7 @@
 
 .card-description {
   color: #909090;
-  font-size: 19px;
-  padding: 0 10px;
+  font-size: 14px;
 }
 
 .card-header, .card-body {
@@ -73,6 +72,15 @@
             justify-content: center;
     height: 100%;
   }
+
+  .card-title {
+    font-size: 34px;
+  }
+
+  .card-description {
+    font-size: 19px;
+  }
+  
 }
 
 @media (min-width: 960px) {
